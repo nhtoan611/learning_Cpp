@@ -36,8 +36,28 @@ void main() {
 	demo y(5);
 	cout << y.getAge() << endl;
 	*/
-	learning dm;
-	dm.display();
+
+
+	/* learning dm;
+	dm.display(); */
+
+	int a = 1;
+	int b = 2;
+	int c = 3;
+
+	int *ptr=0;
+
+	cout << a << " "<< &a << endl;
+	cout << b << " " << &b << endl;
+	cout << c << " " << &c << endl;
+
+	ptr = &a;
+	cout << ptr << endl;
+	ptr = &b;
+	cout << ptr << endl;
+	ptr = &c;
+	cout << ptr << endl;
+
 	system("pause");
 }
 
