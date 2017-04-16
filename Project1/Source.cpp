@@ -2,6 +2,9 @@
 #include<string>
 using namespace std;
 
+#include "learning.h"
+
+
 void xinchao();
 class demo {
 public:
@@ -28,11 +31,13 @@ void main() {
 	int b;
 	b = 2;
 	cout << b << endl;
-	*/
 	demo x;
 	cout << x.getAge() << endl;
 	demo y(5);
 	cout << y.getAge() << endl;
+	*/
+	learning dm;
+	dm.display();
 	system("pause");
 }
 
